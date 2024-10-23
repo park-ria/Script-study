@@ -37,7 +37,7 @@ console.log(result);
 
 result = (--b > c++ || d <= 40) && a > b;
 // (21>20 || 30<=40) && 19 >21
-// (f || t) && f
+// (t || t) && f
 // t && f = f
 // a=19, b=21, c=21, d=30
 console.log(result);
