@@ -2,9 +2,7 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 console.log("----------1번 문제----------");
 console.log("arr 모든 값 출력");
-arr.forEach((item, index) => {
-  console.log(`${index}번째 값은 : ${item}`);
-});
+arr.forEach((item, index) => console.log(`${index}번째 값은 : ${item}`));
 
 console.log("----------2번 문제----------");
 console.log("arr 두배인 배열 만들어서 arr1이라는 변수에 넣기");
