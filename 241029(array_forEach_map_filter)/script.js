@@ -29,5 +29,4 @@ console.log(arr.sort((a, b) => b - a));
 
 console.log("----------7번 문제----------");
 console.log("arr 값 모두 더하기");
-const reducer = (accumulator, currentValue) => accumulator + currentValue;
-console.log(arr.reduce(reducer));
+console.log(arr.reduce((a, b) => a + b));
