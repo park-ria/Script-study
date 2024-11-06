@@ -13,11 +13,11 @@ console.log(person.name);
 // 2. hello 함수 출력
 person.hello();
 
-// 3. person 객체에 gender라는 속성 넣고 gender를 온전표기법으로 출력
+// 3. person 객체에 gender라는 속성 넣고 gender를 온점표기법으로 출력
 person.gender = "woman";
 console.log(person.gender);
 
-// 4. person 객체에 bye라는 함수를 넣고 bye 온전표기법으로 출력
+// 4. person 객체에 bye라는 함수를 넣고 bye 온점표기법으로 출력
 person.bye = () => {
   console.log("Bye See you later!!!");
 };
